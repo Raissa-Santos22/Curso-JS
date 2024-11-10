@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../PW1/Codigo"
+		},
+		{
+			"path": "../../../../PW1/MARIO"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Curso.JS"
+	}
+}

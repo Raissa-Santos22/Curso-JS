@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    
+    <style> 
+            div#area{
+                font: normal 20px Arial;
+                 background-color: rgb(42,139,42);
+                 color:white;
+                 width: 200px;
+                 height: 200px;
+                 line-height: 200px;
+                 text-align: center;
+            }
+    </style>
+
+</head>
+<body>
+    <div id="area" >    
+        Interaja...
+    </div>
+
+    <script>
+        var a = window.document.getElementById('area')
+
+        a.addEventListener('click',clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+        // uma forma mais fácil e limpa de criar eventos
+        function clicar() {
+            a.innerText = 'Clicou!'
+            a.style.background = 'red'
+        } 
+
+         // Já no script criamos uma função fuction que só vai executar seu bloco de codigo quando
+        // ocorrer o evento clicar, criamos a variavel a que vai selecionar o elemento pelo id 
+        // e vai escrever com a tag innerText clicou quando clicamos com o mouse em cima da div 
+
+        function entrar(){
+             a.innerText = 'Entrou'
+             a.style.background = 'pink'
+        }
+
+        function sair(){
+            a.innerText = 'Saiu'
+            a.style.background = 'purple'
+        }
+
+    </script>
+</body>
+</htm
