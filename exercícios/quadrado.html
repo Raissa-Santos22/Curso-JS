@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercitando</title>
+
+    <style>
+        #q1{
+            background-color: pink;
+            width: 200px;
+            height: 200px;
+            color:white;
+            font:normal 18pt Arial;
+            text-align: center;
+            line-height: 180px
+        }
+
+    </style>
+</head>
+<body>
+    <div id="q1" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        Interraja
+    </div>
+    <script>
+        function clicar(){
+          var t1 = document.getElementById('q1')
+          t1.style.background = 'orange'
+          t1.innerHTML = 'Clicou!'
+        }
+
+        function entrar(){
+          var t1 = document.getElementById('q1')
+          t1.style.background = 'purple'
+          t1.innerHTML = 'Entrou!'
+        }
+
+        function sair(){
+          var t1 = document.getElementById('q1')
+          t1.style.background = 'green'
+          t1.innerHTML = 'Saiu!'
+        }
+    </script>
+</body>
+</html>

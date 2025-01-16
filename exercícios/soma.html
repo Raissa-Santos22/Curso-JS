@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma</title>
+    <link rel="stylesheet" href="soma.css">
+</head>
+<body>
+    <h1>Somando Números</h1>
+    <input type="number" name="caixa1" id="caixa1"> 
+    <p> + </p>
+    <input type="number" name="caixa2" id="caixa2">
+    <input type="button" value="Somar" id="soma" onclick="calcular()">
+    <div id="res"></div>
+
+    <script>
+        function calcular(){
+            var c1 = document.getElementById('caixa1')
+            var c2 = document.getElementById('caixa2')
+            var n1 = Number(c1.value)
+            var n2 = Number(c2.value)
+            var soma = n1 + n2
+            var resultado = document.getElementById('res')
+
+            resultado.innerHTML = `A soma de ${n1} + ${n2} é igual a : ${soma}`
+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de velocidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Teste de Velocidade</h1>
+    <p>Velocidade do carro :</p> <input type="number" name="caixa1" id="caixa1">
+    <input type="button" value="Botão" onclick="verificar()" id="botao">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function verificar(){
+        var caixa = document.getElementById('caixa1')
+        var velocidade = Number(caixa.value)
+        var res = document.getElementById('res')
+
+        res.innerHTML = `Sua velocidade atual é de : ${velocidade} Km/h`
+
+        if(velocidade > 60){
+            res.innerHTML += `<p>Voce ultrapassou a velocidade permitida nessa rodovia! MULTADO`
+        }   res.innerHTML += "<p> Dirija com segurança"
+        }
+
+
+    </script>
+</body>
+</html>

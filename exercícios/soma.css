@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(128, 128, 128, 0.801);
+}
+
+h1{
+    font:normal 30pt Arial;
+    margin-top: 140px;
+    color:white;
+    text-align: center;
+}
+
+#caixa1{
+    margin-bottom: 20px;
+    margin-left: 560px;
+    text-align: center;
+    height: 30px;
+    display: block;
+    margin-top: 20px;
+   width: 200px;
+}
+
+#caixa2{
+    text-align: center;
+    height: 30px;
+    margin-left: 560px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+#soma{
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 620px;
+}
+
+p{
+    margin-left: 650px;
+    color:white;
+    font-size: 20pt;
+}
+
+#res{
+    text-align: center;
+    color:white;
+    font:normal 20pt Arial;
+}
+

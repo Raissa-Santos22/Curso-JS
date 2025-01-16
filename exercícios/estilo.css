@@ -1,0 +1,38 @@
+body{
+    font-family: Arial;
+    background-color: rgba(98, 98, 226, 0.945);
+}
+
+h1{
+    color:white;
+    font-size: 30pt;
+    text-align: center;
+}
+
+section{
+    display: block;
+    font-size: 16pt;
+    margin-left: 430px;
+    width: 520px;
+    height: 300px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+footer{
+    color: white;
+    font-size: 16pt;
+    text-align: center;
+}
+
+#mensagem{
+    padding-top: 10px;
+    text-align: center;
+}
+
+#imagem{
+    margin-left: 120px;
+}
+

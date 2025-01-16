@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <link rel="stylesheet" href="nacionalidade.css">
+</head>
+<body>
+    <h1>Teste de Nacionalidade </h1>
+    <p>Digite sua nacionalidade :</p>
+    <input type="text" name="c1" id="c1">
+    <input type="button" value="Verificar" onclick="verificar()" id="botao">
+    <div id="res"></div>
+
+    <script>
+        function verificar(){
+        var c1 = document.getElementById('c1')
+        var nacionalidade = c1.value
+        var res = document.getElementById('res')
+
+        res.innerHTML = `Vivendo em : ${nacionalidade}`
+
+        if(nacionalidade == 'Brasil'){
+            res.innerHTML = `Brasileiro`
+        }else{
+            res.innerHTML = `Estrangeiro`
+        }
+        }
+    </script>
+</body>
+</html>

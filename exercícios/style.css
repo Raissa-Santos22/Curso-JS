@@ -1,0 +1,47 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    padding: 40px;
+    text-align: center;
+    color:white;
+}
+
+body{
+    background-color: rgba(205, 92, 92, 0.753);
+}
+
+p{
+    text-align: center;
+    font-size: 20pt;
+    color:white;
+}
+
+#botao{
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 620px;
+}
+
+#res{
+    text-align: center;
+    color:white;
+    font:normal 18pt Arial;
+}
+#caixa1{
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 570px;
+}
+
+p{
+    font:normal 18pt Arial;
+}
