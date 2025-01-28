@@ -8,20 +8,19 @@
 </head>
 <body>
     <header>
-        <h1>Tabuada</h1>
+        <h1>Analisador de Números</h1>
     </header>
     <section>
         <div>
-           <p>Numero : <input type="number" name="num" id="txtn">
-           <input type="button" value="Gerar Tabuada" onclick="tabuada()">
+        Numero(entre 1 e 100) :
+        <input type="number" name="fnum" id="fnum">
+        <input type="button" value="Adicionar" onclick="adicionar()">
+        <br> <br>
+        <select name="flista" id="flista" size = "6"></select>
+        <br><input type="button" value="Finalizar"onclick= "finalizar()">
+        <div id="res">
         </div>
-        <div>
-            <select name="tabuada" id="seltab" size = "10">
-            <option id="item">Digite um numero :</option>
-            <option value="valor"></option>
-            </select> 
-
-        </div>
+    
     </section>
     <footer>
         <p>&copy; CursoemVideo</p>
